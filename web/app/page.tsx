@@ -80,10 +80,12 @@ export default function Home() {
       <header className="mb-6 flex flex-wrap items-end justify-between gap-4">
         <div>
           <h1 className="text-3xl font-bold tracking-tight">PostHog Engineering Impact</h1>
-          <p className="mt-1 text-sm text-neutral-400">
-            Top 5 most impactful engineers — {fmtDate(data.since)} → {fmtDate(data.fetched_at)} ({data.days} days)
+          <p className="mt-1 max-w-3xl text-sm text-neutral-300">
+            Impact = shipping meaningful work, unblocking others through reviews, solving issues users care about,
+            and collaborating across the codebase. Not lines of code.
           </p>
-          <p className="mt-1 text-xs text-neutral-500">
+          <p className="mt-2 text-xs text-neutral-500">
+            Top 5 most impactful engineers — {fmtDate(data.since)} → {fmtDate(data.fetched_at)} ({data.days} days) ·
             Analyzed {data.pr_count.toLocaleString()} PRs from {data.author_count} contributors in{" "}
             <a
               href={`https://github.com/${data.repo}`}

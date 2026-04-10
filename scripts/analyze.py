@@ -7,10 +7,12 @@ traceable to its components — no black-box numbers.
 Signals (all normalized to 0-100 before weighting):
 
 1. SHIPPED IMPACT (weight 0.30)
-   - Merged PRs, weighted by "substance" (review_depth + description_quality).
+   - Merged PRs, weighted by "substance" (review_depth + PR context richness).
    - A 10-line fix reviewed by 3 people with a detailed body outscores a
      500-line refactor with no reviews and a 1-line description.
    - substance = log(1 + reviews_received) * (1 + min(body_len/500, 2))
+   - NOTE: body-length is a proxy for context/effort in the PR description,
+     not literal "quality" — we don't grade prose.
 
 2. REVIEW LEVERAGE (weight 0.25)
    - Reviews given, weighted by the size of the PR reviewed (changedFiles).

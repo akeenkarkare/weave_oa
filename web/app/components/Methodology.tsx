@@ -5,7 +5,7 @@ const COMPONENTS = [
     color: "bg-emerald-500",
     formula: "Σ merged PRs × log(1 + reviews) × (1 + min(body_len/500, 2))",
     rationale:
-      "Work that actually shipped — but weighted by substance, not size. A 10-line fix reviewed deeply with a clear description outscores a 500-line refactor no one reviewed. Line counts are intentionally excluded because they're gameable and uncorrelated with value.",
+      "Work that actually shipped — but weighted by review depth and PR context richness, not size. A 10-line fix reviewed deeply with a thorough description outscores a 500-line refactor no one reviewed. Body length is used as a proxy for context/effort in the PR description, not literal prose quality. Line counts are intentionally excluded because they're gameable and uncorrelated with value.",
   },
   {
     key: "review",
@@ -46,9 +46,15 @@ export default function Methodology({ weights }: { weights: Record<string, numbe
     <section id="methodology" className="mt-10 rounded-xl border border-neutral-800 bg-neutral-900/40 p-6">
       <h2 className="text-lg font-semibold text-neutral-100">How this is calculated</h2>
       <p className="mt-1 text-sm text-neutral-400">
-        Impact is a weighted composite of five signals. Each is normalized to 0–100 across all contributors, then
-        combined with the weights shown below. Every number in this dashboard traces back to PRs, reviews, and issues
-        you can click through to — no black-box scores.
+        Impact is a weighted composite of five signals. Each is normalized to 0–100 across all contributors (using a
+        98th-percentile cap to avoid single-outlier flattening), then combined with the weights shown below. Every
+        number in this dashboard traces back to PRs, reviews, and issues you can click through to — no black-box scores.
+      </p>
+      <p className="mt-3 rounded-md border border-amber-900/40 bg-amber-950/20 px-3 py-2 text-xs text-amber-200/80">
+        <span className="font-semibold">Scope:</span> this measures impact visible through pull requests and their
+        review / issue-closing activity on GitHub. It does not capture work that happens in Slack, planning docs,
+        standalone issue triage, design review, or on-call — engineers whose contributions live mostly outside the PR
+        graph will be undercounted.
       </p>
 
       <div className="mt-5 space-y-4">
