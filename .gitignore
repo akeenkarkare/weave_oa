@@ -1,0 +1,22 @@
+# env
+.env
+.env.local
+
+# python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# node
+node_modules/
+.next/
+out/
+dist/
+*.log
+
+# data (we'll commit the processed/public data, not raw)
+data/raw.json
+
+# os
+.DS_Store
