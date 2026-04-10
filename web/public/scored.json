@@ -1,0 +1,981 @@
+{
+  "repo": "PostHog/posthog",
+  "fetched_at": "2026-04-10T18:51:33.165765+00:00",
+  "since": "2026-01-10T18:32:00.842624+00:00",
+  "days": 90,
+  "pr_count": 9295,
+  "author_count": 292,
+  "weights": {
+    "shipped": 0.3,
+    "review": 0.25,
+    "issue": 0.2,
+    "collab": 0.15,
+    "breadth": 0.1
+  },
+  "top5": [
+    {
+      "login": "rafaeelaudibert",
+      "avatar": "https://github.com/rafaeelaudibert.png?size=96",
+      "profile": "https://github.com/rafaeelaudibert",
+      "score": 81.23,
+      "components": {
+        "shipped": 84.25,
+        "review": 100.0,
+        "issue": 29.79,
+        "collab": 100.0,
+        "breadth": 100.0
+      },
+      "raw": {
+        "shipped_raw": 494.13,
+        "review_raw": 726.53,
+        "issue_raw": 7.0,
+        "collaborators": 88,
+        "areas": [
+          ".agents",
+          ".claude",
+          ".config",
+          ".devcontainer",
+          ".flox",
+          ".github",
+          ".vscode",
+          "<root>",
+          "bin",
+          "cli",
+          "common",
+          "devenv"
+        ],
+        "area_count": 23
+      },
+      "stats": {
+        "merged_prs": 155,
+        "opened_prs": 175,
+        "reviews_given": 391,
+        "issues_closed": 2,
+        "additions": 73762,
+        "deletions": 47397
+      },
+      "top_prs": [
+        {
+          "number": 49572,
+          "title": "feat: Connect Stripe via OAuth in data warehouse",
+          "url": "https://github.com/PostHog/posthog/pull/49572",
+          "substance": 9.13,
+          "reviews": 20,
+          "changedFiles": 37
+        },
+        {
+          "number": 52324,
+          "title": "feat: Add OAuth Client ID Metadata Document (CIMD) support",
+          "url": "https://github.com/PostHog/posthog/pull/52324",
+          "substance": 9.13,
+          "reviews": 20,
+          "changedFiles": 25
+        },
+        {
+          "number": 48501,
+          "title": "feat: Add reverse proxy setup to product onboarding",
+          "url": "https://github.com/PostHog/posthog/pull/48501",
+          "substance": 8.67,
+          "reviews": 17,
+          "changedFiles": 25
+        }
+      ],
+      "top_reviews": [
+        {
+          "number": 48406,
+          "title": "feat(ux): sidepanel => context panel",
+          "url": "https://github.com/PostHog/posthog/pull/48406",
+          "weight": 6.44,
+          "changedFiles": 628,
+          "author": "adamleithp"
+        },
+        {
+          "number": 46752,
+          "title": "feat: add theme toggle to global shortcuts",
+          "url": "https://github.com/PostHog/posthog/pull/46752",
+          "weight": 6.26,
+          "changedFiles": 520,
+          "author": "fercgomes"
+        },
+        {
+          "number": 52510,
+          "title": "chore(devex): Upgrade to Typescript 5.6",
+          "url": "https://github.com/PostHog/posthog/pull/52510",
+          "weight": 5.82,
+          "changedFiles": 335,
+          "author": "gantoine"
+        }
+      ],
+      "top_issues": [
+        {
+          "number": 40957,
+          "title": "Feature Request: Improve exception display for long values",
+          "reactions": 1,
+          "comments": 3,
+          "weight": 3.5,
+          "via_pr": 48689
+        },
+        {
+          "number": 41955,
+          "title": "Bug: PostHog backend fails to start on WSL2 due to incorrect Granian host binding",
+          "reactions": 0,
+          "comments": 5,
+          "weight": 3.5,
+          "via_pr": 45408
+        }
+      ]
+    },
+    {
+      "login": "dmarticus",
+      "avatar": "https://github.com/dmarticus.png?size=96",
+      "profile": "https://github.com/dmarticus",
+      "score": 77.54,
+      "components": {
+        "shipped": 85.67,
+        "review": 32.32,
+        "issue": 100.0,
+        "collab": 95.61,
+        "breadth": 94.16
+      },
+      "raw": {
+        "shipped_raw": 502.47,
+        "review_raw": 234.8,
+        "issue_raw": 67.0,
+        "collaborators": 65,
+        "areas": [
+          ".flox",
+          ".github",
+          ".semgrep",
+          "<root>",
+          "cli",
+          "common",
+          "docs",
+          "ee",
+          "frontend",
+          "nodejs",
+          "playwright",
+          "posthog"
+        ],
+        "area_count": 15
+      },
+      "stats": {
+        "merged_prs": 130,
+        "opened_prs": 144,
+        "reviews_given": 156,
+        "issues_closed": 18,
+        "additions": 41908,
+        "deletions": 42627
+      },
+      "top_prs": [
+        {
+          "number": 50126,
+          "title": "feat(feature-flags): add name-based search for group key values",
+          "url": "https://github.com/PostHog/posthog/pull/50126",
+          "substance": 9.13,
+          "reviews": 20,
+          "changedFiles": 16
+        },
+        {
+          "number": 45069,
+          "title": "chore(flags): rename `evaluation_environments` to `evaluation_contexts`",
+          "url": "https://github.com/PostHog/posthog/pull/45069",
+          "substance": 9.13,
+          "reviews": 20,
+          "changedFiles": 48
+        },
+        {
+          "number": 49594,
+          "title": "feat(feature-flags): add realtime cohort membership infrastructure to feature flags",
+          "url": "https://github.com/PostHog/posthog/pull/49594",
+          "substance": 8.99,
+          "reviews": 19,
+          "changedFiles": 14
+        }
+      ],
+      "top_reviews": [
+        {
+          "number": 51202,
+          "title": "chore: replace axum::async_trait re-export with direct async_trait import",
+          "url": "https://github.com/PostHog/posthog/pull/51202",
+          "weight": 3.56,
+          "changedFiles": 34,
+          "author": "haacked"
+        },
+        {
+          "number": 51060,
+          "title": "feat(feature-flags): add shareable links for specific activity history entries",
+          "url": "https://github.com/PostHog/posthog/pull/51060",
+          "weight": 3.37,
+          "changedFiles": 28,
+          "author": "zaniluca"
+        },
+        {
+          "number": 47252,
+          "title": "fix: improve Add Person to Cohort modal UX and design",
+          "url": "https://github.com/PostHog/posthog/pull/47252",
+          "weight": 3.26,
+          "changedFiles": 25,
+          "author": "pauldambra"
+        }
+      ],
+      "top_issues": [
+        {
+          "number": 24485,
+          "title": "Support for semantic (app) versions in event filters and feature flag release conditions",
+          "reactions": 21,
+          "comments": 10,
+          "weight": 27.0,
+          "via_pr": 44747
+        },
+        {
+          "number": 33206,
+          "title": "Target users & groups in same feature flag",
+          "reactions": 6,
+          "comments": 9,
+          "weight": 11.5,
+          "via_pr": 52742
+        },
+        {
+          "number": 43729,
+          "title": "bug(flags): Flags API allows creating invalid flag definitions",
+          "reactions": 0,
+          "comments": 5,
+          "weight": 3.5,
+          "via_pr": 47268
+        }
+      ]
+    },
+    {
+      "login": "andrewm4894",
+      "avatar": "https://github.com/andrewm4894.png?size=96",
+      "profile": "https://github.com/andrewm4894",
+      "score": 75.83,
+      "components": {
+        "shipped": 100.0,
+        "review": 37.92,
+        "issue": 63.83,
+        "collab": 93.05,
+        "breadth": 96.22
+      },
+      "raw": {
+        "shipped_raw": 1022.4,
+        "review_raw": 275.51,
+        "issue_raw": 15.0,
+        "collaborators": 58,
+        "areas": [
+          ".claude",
+          ".github",
+          ".semgrep",
+          "<root>",
+          "bin",
+          "common",
+          "devenv",
+          "docs",
+          "ee",
+          "frontend",
+          "nodejs",
+          "playwright"
+        ],
+        "area_count": 16
+      },
+      "stats": {
+        "merged_prs": 261,
+        "opened_prs": 340,
+        "reviews_given": 178,
+        "issues_closed": 12,
+        "additions": 62659,
+        "deletions": 9427
+      },
+      "top_prs": [
+        {
+          "number": 53107,
+          "title": "feat(llma): enable clustering read tools and add exploring-llm-clusters skill",
+          "url": "https://github.com/PostHog/posthog/pull/53107",
+          "substance": 9.13,
+          "reviews": 20,
+          "changedFiles": 11
+        },
+        {
+          "number": 46561,
+          "title": "feat(alerts): 2/4 add additional anomaly detection detectors",
+          "url": "https://github.com/PostHog/posthog/pull/46561",
+          "substance": 9.13,
+          "reviews": 20,
+          "changedFiles": 29
+        },
+        {
+          "number": 50073,
+          "title": "feat(alerts): 1/4 add anomaly detection scaffolding with threshold and zscore detectors",
+          "url": "https://github.com/PostHog/posthog/pull/50073",
+          "substance": 9.13,
+          "reviews": 20,
+          "changedFiles": 41
+        }
+      ],
+      "top_reviews": [
+        {
+          "number": 48836,
+          "title": "feat: Standardize \"project token\" nomenclature",
+          "url": "https://github.com/PostHog/posthog/pull/48836",
+          "weight": 4.86,
+          "changedFiles": 128,
+          "author": "rafaeelaudibert"
+        },
+        {
+          "number": 46367,
+          "title": "feat(llm-analytics): add onboarding guides and subcategory tabs for LLM SDKs",
+          "url": "https://github.com/PostHog/posthog/pull/46367",
+          "weight": 3.97,
+          "changedFiles": 52,
+          "author": "richardsolomou"
+        },
+        {
+          "number": 48565,
+          "title": "feat(llma): move byok to global settings with redirects",
+          "url": "https://github.com/PostHog/posthog/pull/48565",
+          "weight": 3.81,
+          "changedFiles": 44,
+          "author": "richardsolomou"
+        }
+      ],
+      "top_issues": [
+        {
+          "number": 47199,
+          "title": "fix(llma): trace summarization still pegs CPU for teams with large traces",
+          "reactions": 0,
+          "comments": 3,
+          "weight": 2.5,
+          "via_pr": 47220
+        },
+        {
+          "number": 47244,
+          "title": "feat(llma): sentiment classification for LLM Analytics",
+          "reactions": 0,
+          "comments": 1,
+          "weight": 1.5,
+          "via_pr": 48278
+        },
+        {
+          "number": 47300,
+          "title": "feat(llma): clusters open beta plan",
+          "reactions": 0,
+          "comments": 1,
+          "weight": 1.5,
+          "via_pr": 47456
+        }
+      ]
+    },
+    {
+      "login": "webjunkie",
+      "avatar": "https://github.com/webjunkie.png?size=96",
+      "profile": "https://github.com/webjunkie",
+      "score": 71.88,
+      "components": {
+        "shipped": 100.0,
+        "review": 60.71,
+        "issue": 8.51,
+        "collab": 100.0,
+        "breadth": 100.0
+      },
+      "raw": {
+        "shipped_raw": 586.52,
+        "review_raw": 441.08,
+        "issue_raw": 2.0,
+        "collaborators": 79,
+        "areas": [
+          ".agents",
+          ".claude",
+          ".devcontainer",
+          ".flox",
+          ".github",
+          ".husky",
+          ".semgrep",
+          ".vscode",
+          "<root>",
+          "bin",
+          "ci",
+          "common"
+        ],
+        "area_count": 25
+      },
+      "stats": {
+        "merged_prs": 174,
+        "opened_prs": 215,
+        "reviews_given": 288,
+        "issues_closed": 2,
+        "additions": 178379,
+        "deletions": 79145
+      },
+      "top_prs": [
+        {
+          "number": 46971,
+          "title": "feat(ci): move product tests to Turborepo",
+          "url": "https://github.com/PostHog/posthog/pull/46971",
+          "substance": 9.13,
+          "reviews": 20,
+          "changedFiles": 41
+        },
+        {
+          "number": 45640,
+          "title": "feat(devenv): add intent-based developer environment system",
+          "url": "https://github.com/PostHog/posthog/pull/45640",
+          "substance": 8.67,
+          "reviews": 17,
+          "changedFiles": 23
+        },
+        {
+          "number": 42229,
+          "title": "feat(types): generate TypeScript types from Django serializers",
+          "url": "https://github.com/PostHog/posthog/pull/42229",
+          "substance": 7.69,
+          "reviews": 12,
+          "changedFiles": 103
+        }
+      ],
+      "top_reviews": [
+        {
+          "number": 48362,
+          "title": "chore: migrate formatting from prettier to oxfmt",
+          "url": "https://github.com/PostHog/posthog/pull/48362",
+          "weight": 6.78,
+          "changedFiles": 881,
+          "author": "rafaeelaudibert"
+        },
+        {
+          "number": 51379,
+          "title": "refactor: Multitude of simplifications for MCP Apps",
+          "url": "https://github.com/PostHog/posthog/pull/51379",
+          "weight": 5.06,
+          "changedFiles": 157,
+          "author": "rafaeelaudibert"
+        },
+        {
+          "number": 51488,
+          "title": "feat(quill): intital commit",
+          "url": "https://github.com/PostHog/posthog/pull/51488",
+          "weight": 4.96,
+          "changedFiles": 142,
+          "author": "adamleithp"
+        }
+      ],
+      "top_issues": [
+        {
+          "number": 51095,
+          "title": "feat(devex): visual regression testing",
+          "reactions": 0,
+          "comments": 0,
+          "weight": 1.0,
+          "via_pr": 50747
+        },
+        {
+          "number": 49025,
+          "title": "fix(hobby): Caddy objectstorage proxy route doesn't persist across deploys",
+          "reactions": 0,
+          "comments": 0,
+          "weight": 1.0,
+          "via_pr": 49027
+        }
+      ]
+    },
+    {
+      "login": "sampennington",
+      "avatar": "https://github.com/sampennington.png?size=96",
+      "profile": "https://github.com/sampennington",
+      "score": 70.42,
+      "components": {
+        "shipped": 69.06,
+        "review": 38.34,
+        "issue": 100.0,
+        "collab": 79.79,
+        "breadth": 81.44
+      },
+      "raw": {
+        "shipped_raw": 405.08,
+        "review_raw": 278.56,
+        "issue_raw": 23.5,
+        "collaborators": 32,
+        "areas": [
+          ".agents",
+          ".github",
+          "<root>",
+          "bin",
+          "ee",
+          "frontend",
+          "funnel-udf",
+          "playwright",
+          "posthog",
+          "products"
+        ],
+        "area_count": 10
+      },
+      "stats": {
+        "merged_prs": 149,
+        "opened_prs": 201,
+        "reviews_given": 180,
+        "issues_closed": 9,
+        "additions": 31069,
+        "deletions": 7074
+      },
+      "top_prs": [
+        {
+          "number": 48677,
+          "title": "feat(dashboards): add compact card header behind tile redesign flag",
+          "url": "https://github.com/PostHog/posthog/pull/48677",
+          "substance": 8.48,
+          "reviews": 20,
+          "changedFiles": 21
+        },
+        {
+          "number": 52599,
+          "title": "feat: add d3 + canvas LineChart",
+          "url": "https://github.com/PostHog/posthog/pull/52599",
+          "substance": 6.59,
+          "reviews": 8,
+          "changedFiles": 21
+        },
+        {
+          "number": 49129,
+          "title": "fix(insights): add confirmation dialog and dashboard redirect on insight delete",
+          "url": "https://github.com/PostHog/posthog/pull/49129",
+          "substance": 6.03,
+          "reviews": 18,
+          "changedFiles": 7
+        }
+      ],
+      "top_reviews": [
+        {
+          "number": 49049,
+          "title": "chore: run stories at multiple widths",
+          "url": "https://github.com/PostHog/posthog/pull/49049",
+          "weight": 4.34,
+          "changedFiles": 76,
+          "author": "pauldambra"
+        },
+        {
+          "number": 53340,
+          "title": "feat: pinning in TaxonomicFilter",
+          "url": "https://github.com/PostHog/posthog/pull/53340",
+          "weight": 4.11,
+          "changedFiles": 60,
+          "author": "pauldambra"
+        },
+        {
+          "number": 50799,
+          "title": "chore(funnels): add separate dwh node for funnels",
+          "url": "https://github.com/PostHog/posthog/pull/50799",
+          "weight": 3.95,
+          "changedFiles": 51,
+          "author": "thmsobrmlr"
+        }
+      ],
+      "top_issues": [
+        {
+          "number": 5565,
+          "title": "Breakdown by cohort effectively filters rather than breaking down",
+          "reactions": 0,
+          "comments": 16,
+          "weight": 9.0,
+          "via_pr": 50948
+        },
+        {
+          "number": 50432,
+          "title": "Bug report: Trends bar chart - 'Compare to previous' shows dates from previous period on x-axis",
+          "reactions": 1,
+          "comments": 1,
+          "weight": 2.5,
+          "via_pr": 51301
+        },
+        {
+          "number": 45923,
+          "title": "Bug: Homepage shows \"Dashboard not found\" error when primary dashboard is deleted",
+          "reactions": 1,
+          "comments": 1,
+          "weight": 2.5,
+          "via_pr": 47509
+        }
+      ]
+    }
+  ],
+  "rest": [
+    {
+      "login": "pauldambra",
+      "score": 69.66,
+      "components": {
+        "shipped": 100.0,
+        "review": 50.11,
+        "issue": 10.64,
+        "collab": 100.0,
+        "breadth": 100.0
+      },
+      "stats": {
+        "merged_prs": 247,
+        "opened_prs": 316,
+        "reviews_given": 227,
+        "issues_closed": 1,
+        "additions": 28793,
+        "deletions": 12110
+      }
+    },
+    {
+      "login": "haacked",
+      "score": 67.82,
+      "components": {
+        "shipped": 100.0,
+        "review": 38.95,
+        "issue": 25.53,
+        "collab": 91.86,
+        "breadth": 91.97
+      },
+      "stats": {
+        "merged_prs": 134,
+        "opened_prs": 158,
+        "reviews_given": 151,
+        "issues_closed": 2,
+        "additions": 38782,
+        "deletions": 16782
+      }
+    },
+    {
+      "login": "arthurdedeus",
+      "score": 59.43,
+      "components": {
+        "shipped": 52.59,
+        "review": 18.64,
+        "issue": 87.23,
+        "collab": 87.37,
+        "breadth": 84.39
+      },
+      "stats": {
+        "merged_prs": 88,
+        "opened_prs": 99,
+        "reviews_given": 79,
+        "issues_closed": 17,
+        "additions": 25806,
+        "deletions": 11745
+      }
+    },
+    {
+      "login": "adboio",
+      "score": 55.26,
+      "components": {
+        "shipped": 65.87,
+        "review": 23.63,
+        "issue": 29.79,
+        "collab": 93.43,
+        "breadth": 96.22
+      },
+      "stats": {
+        "merged_prs": 144,
+        "opened_prs": 191,
+        "reviews_given": 94,
+        "issues_closed": 6,
+        "additions": 25275,
+        "deletions": 10327
+      }
+    },
+    {
+      "login": "fercgomes",
+      "score": 54.0,
+      "components": {
+        "shipped": 36.71,
+        "review": 21.6,
+        "issue": 76.6,
+        "collab": 81.78,
+        "breadth": 100.0
+      },
+      "stats": {
+        "merged_prs": 56,
+        "opened_prs": 100,
+        "reviews_given": 82,
+        "issues_closed": 5,
+        "additions": 15913,
+        "deletions": 6602
+      }
+    },
+    {
+      "login": "sakce",
+      "score": 52.84,
+      "components": {
+        "shipped": 67.66,
+        "review": 31.46,
+        "issue": 8.51,
+        "collab": 91.86,
+        "breadth": 91.97
+      },
+      "stats": {
+        "merged_prs": 156,
+        "opened_prs": 208,
+        "reviews_given": 131,
+        "issues_closed": 2,
+        "additions": 31943,
+        "deletions": 11131
+      }
+    },
+    {
+      "login": "mendral-app",
+      "score": 52.49,
+      "components": {
+        "shipped": 100.0,
+        "review": 0.15,
+        "issue": 0,
+        "collab": 83.01,
+        "breadth": 100.0
+      },
+      "stats": {
+        "merged_prs": 213,
+        "opened_prs": 323,
+        "reviews_given": 1,
+        "issues_closed": 0,
+        "additions": 15673,
+        "deletions": 10016
+      }
+    },
+    {
+      "login": "thmsobrmlr",
+      "score": 51.43,
+      "components": {
+        "shipped": 37.0,
+        "review": 57.97,
+        "issue": 10.64,
+        "collab": 95.26,
+        "breadth": 94.16
+      },
+      "stats": {
+        "merged_prs": 118,
+        "opened_prs": 153,
+        "reviews_given": 233,
+        "issues_closed": 2,
+        "additions": 18567,
+        "deletions": 10287
+      }
+    },
+    {
+      "login": "skoob13",
+      "score": 50.44,
+      "components": {
+        "shipped": 65.94,
+        "review": 33.8,
+        "issue": 0,
+        "collab": 85.3,
+        "breadth": 94.16
+      },
+      "stats": {
+        "merged_prs": 129,
+        "opened_prs": 162,
+        "reviews_given": 125,
+        "issues_closed": 0,
+        "additions": 51716,
+        "deletions": 11221
+      }
+    },
+    {
+      "login": "robbie-c",
+      "score": 49.88,
+      "components": {
+        "shipped": 66.39,
+        "review": 12.64,
+        "issue": 17.02,
+        "collab": 91.86,
+        "breadth": 96.22
+      },
+      "stats": {
+        "merged_prs": 108,
+        "opened_prs": 127,
+        "reviews_given": 47,
+        "issues_closed": 1,
+        "additions": 23609,
+        "deletions": 8421
+      }
+    },
+    {
+      "login": "MattBro",
+      "score": 48.81,
+      "components": {
+        "shipped": 80.65,
+        "review": 19.15,
+        "issue": 4.26,
+        "collab": 74.35,
+        "breadth": 78.2
+      },
+      "stats": {
+        "merged_prs": 104,
+        "opened_prs": 131,
+        "reviews_given": 64,
+        "issues_closed": 1,
+        "additions": 19693,
+        "deletions": 4291
+      }
+    },
+    {
+      "login": "Gilbert09",
+      "score": 48.2,
+      "components": {
+        "shipped": 39.23,
+        "review": 54.62,
+        "issue": 0,
+        "collab": 95.61,
+        "breadth": 84.39
+      },
+      "stats": {
+        "merged_prs": 71,
+        "opened_prs": 82,
+        "reviews_given": 213,
+        "issues_closed": 0,
+        "additions": 25014,
+        "deletions": 14288
+      }
+    },
+    {
+      "login": "vdekrijger",
+      "score": 47.64,
+      "components": {
+        "shipped": 60.09,
+        "review": 31.34,
+        "issue": 0,
+        "collab": 82.4,
+        "breadth": 94.16
+      },
+      "stats": {
+        "merged_prs": 86,
+        "opened_prs": 109,
+        "reviews_given": 157,
+        "issues_closed": 0,
+        "additions": 19345,
+        "deletions": 6278
+      }
+    },
+    {
+      "login": "adamleithp",
+      "score": 45.45,
+      "components": {
+        "shipped": 47.05,
+        "review": 35.8,
+        "issue": 0,
+        "collab": 94.91,
+        "breadth": 81.44
+      },
+      "stats": {
+        "merged_prs": 119,
+        "opened_prs": 145,
+        "reviews_given": 163,
+        "issues_closed": 0,
+        "additions": 35657,
+        "deletions": 17607
+      }
+    },
+    {
+      "login": "yasen-posthog",
+      "score": 44.94,
+      "components": {
+        "shipped": 53.85,
+        "review": 26.23,
+        "issue": 0,
+        "collab": 86.87,
+        "breadth": 91.97
+      },
+      "stats": {
+        "merged_prs": 106,
+        "opened_prs": 120,
+        "reviews_given": 106,
+        "issues_closed": 0,
+        "additions": 26683,
+        "deletions": 8618
+      }
+    },
+    {
+      "login": "MattPua",
+      "score": 44.7,
+      "components": {
+        "shipped": 42.37,
+        "review": 13.19,
+        "issue": 40.43,
+        "collab": 81.13,
+        "breadth": 84.39
+      },
+      "stats": {
+        "merged_prs": 118,
+        "opened_prs": 141,
+        "reviews_given": 56,
+        "issues_closed": 5,
+        "additions": 25443,
+        "deletions": 5629
+      }
+    },
+    {
+      "login": "gantoine",
+      "score": 44.48,
+      "components": {
+        "shipped": 28.45,
+        "review": 47.34,
+        "issue": 0,
+        "collab": 95.26,
+        "breadth": 98.16
+      },
+      "stats": {
+        "merged_prs": 46,
+        "opened_prs": 60,
+        "reviews_given": 203,
+        "issues_closed": 0,
+        "additions": 36419,
+        "deletions": 24050
+      }
+    },
+    {
+      "login": "jose-sequeira",
+      "score": 44.19,
+      "components": {
+        "shipped": 52.01,
+        "review": 28.83,
+        "issue": 0,
+        "collab": 79.79,
+        "breadth": 94.16
+      },
+      "stats": {
+        "merged_prs": 104,
+        "opened_prs": 118,
+        "reviews_given": 105,
+        "issues_closed": 0,
+        "additions": 48743,
+        "deletions": 14333
+      }
+    },
+    {
+      "login": "eli-r-ph",
+      "score": 44.04,
+      "components": {
+        "shipped": 50.47,
+        "review": 39.04,
+        "issue": 0,
+        "collab": 80.47,
+        "breadth": 70.62
+      },
+      "stats": {
+        "merged_prs": 111,
+        "opened_prs": 130,
+        "reviews_given": 137,
+        "issues_closed": 0,
+        "additions": 36344,
+        "deletions": 9683
+      }
+    },
+    {
+      "login": "lricoy",
+      "score": 43.8,
+      "components": {
+        "shipped": 33.96,
+        "review": 42.92,
+        "issue": 4.26,
+        "collab": 90.6,
+        "breadth": 84.39
+      },
+      "stats": {
+        "merged_prs": 65,
+        "opened_prs": 87,
+        "reviews_given": 169,
+        "issues_closed": 1,
+        "additions": 13707,
+        "deletions": 5690
+      }
+    }
+  ]
+}
